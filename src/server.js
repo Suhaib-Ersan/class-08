@@ -11,7 +11,7 @@ const errorHandler = require('./error-handlers/500.js');
 const logger = require('./middleware/logger.js');
 
 const usersRoutes = require('./routes/users.js');
-const modelsRoutes = require('./routes/models.js');
+const modelsRoutes = require('./routes/V2.js');
 
 // Prepare the express app
 const app = express();
